@@ -248,11 +248,11 @@ class AMP_Gallery_Embed_Handler extends AMP_Base_Embed_Handler {
 	 */
 	public function print_styles() {
 		?>
-		<style>
+		<!--style>
 			.wp-block-gallery.is-cropped .blocks-gallery-item amp-img > img {
 				object-fit: cover;
 			}
-		</style>
+		</style-->
 		<?php
 	}
 }
